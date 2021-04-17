@@ -39,23 +39,23 @@ public class Logic {
     public static void movement(char[][] gameBoard, int positionX, int positionY, char sign) {
         if (positionX == 1) {
             switch (positionY) {
-                case 1 -> gameBoard[0][0] = sign;
-                case 2 -> gameBoard[0][2] = sign;
-                case 3 -> gameBoard[0][4] = sign;
+                case 1 : gameBoard[0][0] = sign;
+                case 2 : gameBoard[0][2] = sign;
+                case 3 : gameBoard[0][4] = sign;
             }
         }
         if (positionX == 2) {
             switch (positionY) {
-                case 1 -> gameBoard[2][0] = sign;
-                case 2 -> gameBoard[2][2] = sign;
-                case 3 -> gameBoard[2][4] = sign;
+                case 1 : gameBoard[2][0] = sign;
+                case 2 : gameBoard[2][2] = sign;
+                case 3 : gameBoard[2][4] = sign;
             }
         }
         if (positionX == 3) {
             switch (positionY) {
-                case 1 -> gameBoard[4][0] = sign;
-                case 2 -> gameBoard[4][2] = sign;
-                case 3 -> gameBoard[4][4] = sign;
+                case 1 : gameBoard[4][0] = sign;
+                case 2 : gameBoard[4][2] = sign;
+                case 3 : gameBoard[4][4] = sign;
             }
         }
     }
